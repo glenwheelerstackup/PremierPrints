@@ -103,13 +103,14 @@
 
     {%- if section.settings.show_copyright -%}
       <p class="footer__small-text">
-        Premier Prints Ltd - 1470958.<br/>
-        Boho Five, Bridge Street East, Middlesbrough, England, TS2 1NY<br/>
-        For Support contact hello@premierprints.co.uk
         &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
         {%- if section.settings.copyright_text != blank -%}
           {{ section.settings.copyright_text }}
         {%- endif -%}
+
+        <br/><br/>Premier Prints Ltd - 1470958.<br/>
+        Boho Five, Bridge Street East, Middlesbrough, England, TS2 1NY<br/>
+        For Support contact hello@premierprints.co.uk
       </p>
     {%- endif -%}
 
