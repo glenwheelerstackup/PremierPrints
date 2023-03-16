@@ -113,17 +113,17 @@
   },
   "cart": {
     "general": {
-      "title": "Cart",
+      "title": "Bag",
       "remove": "Remove",
       "note": "Order note",
       "subtotal": "Subtotal",
       "discounts": "Discounts",
       "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
-      "update": "Update cart",
+      "update": "Update Bag",
       "checkout": "Check out",
-      "empty": "Your cart is currently empty.",
+      "empty": "Your Bag is currently empty.",
       "continue_browsing_html": "<a href='{{ url }}'>Continue shopping<\/a>",
-      "close_cart": "Close cart",
+      "close_cart": "Close Bag",
       "reduce_quantity": "Reduce item quantity by one",
       "increase_quantity": "Increase item quantity by one",
       "terms": "I agree with the terms and conditions",
@@ -280,7 +280,7 @@
   },
   "layout": {
     "cart": {
-      "title": "Cart"
+      "title": "Bag"
     },
     "customer": {
       "account": "Account",
@@ -309,7 +309,7 @@
       "sold_out": "Sold Out",
       "unavailable": "Unavailable",
       "quantity": "Quantity",
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Add to Bag",
       "preorder": "Pre-order",
       "include_taxes": "Tax included.",
       "shipping_policy_html": "<a href='{{ link }}'>Shipping<\/a> calculated at checkout.",
