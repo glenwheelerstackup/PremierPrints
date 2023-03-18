@@ -161,7 +161,7 @@
             "settings": {
               "show_footer_title": false,
               "title": "",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "text": "<p>Join our newsletter and be the first to hear about our fantastic offers, news and giveaways.<\/p>",
               "container_width": 34
             }
           }
@@ -660,13 +660,6 @@
           "divider": false
         }
       },
-      "35b74fed-8e4c-4fce-b3ea-45d61ac24436": {
-        "type": "advanced-content",
-        "settings": {
-          "full_width": false,
-          "space_around": true
-        }
-      },
       "5386ed70-619f-4579-aef7-80039e6ebec6": {
         "type": "background-image-text",
         "settings": {
@@ -692,8 +685,7 @@
       "12c65984-4817-421f-960d-8f8d3ca4401d",
       "6c539adc-8d0f-4c0c-a342-e38ab95c296a",
       "437fc046-f5cd-430e-9947-723f3184d9cb",
-      "d33e5db7-966d-4274-8d61-b62072a68ab1",
-      "35b74fed-8e4c-4fce-b3ea-45d61ac24436"
+      "d33e5db7-966d-4274-8d61-b62072a68ab1"
     ],
     "blocks": {
       "2187360915322861293": {
