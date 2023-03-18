@@ -139,6 +139,14 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "98f20ab4-fae0-4f57-80bb-92d7a2ce5522": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": false,
+              "menu": "main-menu",
+              "container_width": 25
+            }
+          },
           "899ce71e-2844-49f8-b089-29fadec08364": {
             "type": "menu",
             "settings": {
@@ -153,7 +161,7 @@
               "show_footer_title": true,
               "title": "About Us",
               "text": "<p>Hi there! Premier Prints are a small print studio located in the North East of England. We're extremely proud of the high quality products we're able to offer at a very competitive price. <\/p>",
-              "container_width": 50
+              "container_width": 25
             }
           },
           "8f11d589-6c35-4679-ab59-5e5613f92a50": {
@@ -167,6 +175,7 @@
           }
         },
         "block_order": [
+          "98f20ab4-fae0-4f57-80bb-92d7a2ce5522",
           "899ce71e-2844-49f8-b089-29fadec08364",
           "8debcc39-7f39-4d22-a0a6-fa7cd3abea32",
           "8f11d589-6c35-4679-ab59-5e5613f92a50"
