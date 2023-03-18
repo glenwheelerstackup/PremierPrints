@@ -8,7 +8,33 @@
           
 
 
-
+        <script>
+          export function calculateProgress(currentVal, targetVal) {
+            const result = Math.round((100 * currentVal) / targetVal)
+          
+            // Progress bar, set the width
+            $('.cart-shipping__progress').css({
+              width: `${result}%`,
+            })
+          
+            const newProgressNum = ((targetVal - currentVal) / 100).toFixed(2)
+          
+            // If the customer is eligible for free shipping
+            if (newProgressNum <= 0) {
+              $('.cart-shipping__eligible').show()
+              _hideLoading()
+            } else {
+              // Otherwise, they are in progress
+              $('.cart-shipping__num').text(newProgressNum)
+              $('.cart-shipping__in-progress').show()
+              _hideLoading()
+            }
+          
+            function _hideLoading() {
+              $('.cart-shipping__loading').hide()
+            }
+          }
+        </script>
 
 
           <!-- PROGRESS FOR FREE SHIPPING -->
