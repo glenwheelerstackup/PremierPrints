@@ -144,7 +144,7 @@
             "settings": {
               "show_footer_title": true,
               "menu": "footer",
-              "container_width": 35
+              "container_width": 25
             }
           },
           "8debcc39-7f39-4d22-a0a6-fa7cd3abea32": {
@@ -162,7 +162,7 @@
               "show_footer_title": false,
               "title": "",
               "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 35
+              "container_width": 25
             }
           }
         },
