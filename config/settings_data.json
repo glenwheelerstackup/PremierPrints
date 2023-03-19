@@ -521,10 +521,10 @@
       "1da123cb-abf3-4cf6-88d1-dc81c098e6c7": {
         "type": "featured-collection",
         "settings": {
-          "title": "New In",
+          "title": "Just Arrived",
           "home_featured_products": "new-in",
-          "per_row": 5,
-          "rows": 1,
+          "per_row": 4,
+          "rows": 2,
           "mobile_scrollable": false,
           "view_all": true,
           "divider": false
@@ -535,8 +535,8 @@
         "settings": {
           "title": "Photography Prints",
           "home_featured_products": "photography",
-          "per_row": 5,
-          "rows": 1,
+          "per_row": 4,
+          "rows": 2,
           "mobile_scrollable": false,
           "view_all": true,
           "divider": false
@@ -547,8 +547,8 @@
         "settings": {
           "title": "Living Room Prints",
           "home_featured_products": "living-room",
-          "per_row": 5,
-          "rows": 1,
+          "per_row": 4,
+          "rows": 2,
           "mobile_scrollable": false,
           "view_all": true,
           "divider": false
