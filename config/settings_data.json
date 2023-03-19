@@ -696,7 +696,7 @@
               "text_align": "vertical-center horizontal-center",
               "image": "shopify:\/\/shop_images\/il_fullxfull.4461938166_rdth.webp",
               "image_mobile": "shopify:\/\/shop_images\/il_fullxfull.4461938166_rdth_copy.jpg",
-              "focal_point": "center center"
+              "focal_point": "top center"
             }
           }
         },
