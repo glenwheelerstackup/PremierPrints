@@ -669,7 +669,6 @@
           "text": "",
           "button_label": "",
           "button_link": "",
-          "image": "shopify:\/\/shop_images\/Hero_Image.jpg",
           "focal_point": "center",
           "color_border": "#f4f4f4",
           "layout": "left",
@@ -694,8 +693,8 @@
               "link_text_2": "",
               "color_accent": "rgba(0,0,0,0)",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/gallery-wall-inspiration-1_52f4765a-e6c0-42c2-b854-6abdc9853b79.jpg",
-              "image_mobile": "shopify:\/\/shop_images\/gallery-wall-inspiration-3_53babfe1-f04f-4517-9c35-ea66c5cb335a.jpg",
+              "image": "shopify:\/\/shop_images\/gallery-wall-inspiration-1.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/gallery-wall-inspiration-3.jpg",
               "focal_point": "20% 0"
             }
           }
