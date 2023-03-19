@@ -696,7 +696,7 @@
               "text_align": "vertical-center horizontal-center",
               "image": "shopify:\/\/shop_images\/gallery-wall-inspiration-1_52f4765a-e6c0-42c2-b854-6abdc9853b79.jpg",
               "image_mobile": "shopify:\/\/shop_images\/gallery-wall-inspiration-3.jpg",
-              "focal_point": "80% 0"
+              "focal_point": "top center"
             }
           }
         },
