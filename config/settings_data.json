@@ -717,9 +717,9 @@
         "type": "featured-content",
         "settings": {
           "title": "Premier Quality Prints Online",
-          "text": "<p>At Premier Prints.....<\/p>",
+          "text": "<p>At Premier Prints you'll be sure to find something that matches your style and tastes. We offer an ever growing collection of prints including photography, classic black and white, modern abstract, typographic, illustrations and super cute kids prints.<\/p><p>We offer all our prints in the most popular sizes. These include A5, A4, A3, A2, 20x30cm 30x40cm and 40x50cm. All our prints are printed full bleed, carefully packaged and delivered quickly and ready for framing and hanging. <\/p><p>There're many ways to decorate your home with our beautifull poster prints. Why not create a gallery wall in your living room, dining room or staircase? One of our favourites is to hang two or more in your office space or bedroom to create a wonderful atmosphere. <\/p><p>Also, be sure to join our mailing list to be the first to know about our latest offers, discounts, new product launches and much, much more! <\/p>",
           "align_text": "center",
-          "narrow_column": false,
+          "narrow_column": true,
           "enlarge_text": false,
           "divider": false
         }
@@ -733,8 +733,8 @@
       "12c65984-4817-421f-960d-8f8d3ca4401d",
       "6c539adc-8d0f-4c0c-a342-e38ab95c296a",
       "437fc046-f5cd-430e-9947-723f3184d9cb",
-      "d33e5db7-966d-4274-8d61-b62072a68ab1",
-      "4f8f9e13-7d92-4913-be6a-0ce04602221c"
+      "4f8f9e13-7d92-4913-be6a-0ce04602221c",
+      "d33e5db7-966d-4274-8d61-b62072a68ab1"
     ],
     "blocks": {
       "2187360915322861293": {
