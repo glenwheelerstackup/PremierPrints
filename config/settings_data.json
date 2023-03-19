@@ -707,7 +707,7 @@
         "settings": {
           "section_height": "750px",
           "mobile_height": "auto",
-          "parallax": false,
+          "parallax": true,
           "style": "minimal",
           "autoplay": true,
           "autoplay_speed": 5
