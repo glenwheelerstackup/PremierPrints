@@ -536,7 +536,7 @@
           "title": "Photography Prints",
           "home_featured_products": "photography",
           "per_row": 5,
-          "rows": 2,
+          "rows": 1,
           "mobile_scrollable": false,
           "view_all": true,
           "divider": false
@@ -545,8 +545,8 @@
       "6c539adc-8d0f-4c0c-a342-e38ab95c296a": {
         "type": "featured-collection",
         "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "",
+          "title": "Living Room Prints",
+          "home_featured_products": "living-room",
           "per_row": 5,
           "rows": 1,
           "mobile_scrollable": false,
@@ -557,8 +557,8 @@
       "437fc046-f5cd-430e-9947-723f3184d9cb": {
         "type": "featured-collection",
         "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "",
+          "title": "Kitchen Prints",
+          "home_featured_products": "kitchen-prints",
           "per_row": 5,
           "rows": 1,
           "mobile_scrollable": false,
