@@ -669,7 +669,7 @@
           "button_label": "",
           "button_link": "",
           "image": "shopify:\/\/shop_images\/il_fullxfull.4461938166_rdth.webp",
-          "focal_point": "bottom",
+          "focal_point": "center",
           "color_border": "#f4f4f4",
           "layout": "left",
           "height": 750,
