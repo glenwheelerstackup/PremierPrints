@@ -521,8 +521,8 @@
       "1da123cb-abf3-4cf6-88d1-dc81c098e6c7": {
         "type": "featured-collection",
         "settings": {
-          "title": "best sellers",
-          "home_featured_products": "",
+          "title": "New In",
+          "home_featured_products": "new-in",
           "per_row": 5,
           "rows": 1,
           "mobile_scrollable": false,
@@ -533,10 +533,10 @@
       "12c65984-4817-421f-960d-8f8d3ca4401d": {
         "type": "featured-collection",
         "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "",
+          "title": "Photography Prints",
+          "home_featured_products": "photography",
           "per_row": 5,
-          "rows": 1,
+          "rows": 2,
           "mobile_scrollable": false,
           "view_all": true,
           "divider": false
@@ -611,6 +611,7 @@
       },
       "206ecda9-ff28-4e39-8ca7-ccd8516fce48": {
         "type": "text-columns",
+        "disabled": true,
         "blocks": {
           "206ecda9-ff28-4e39-8ca7-ccd8516fce48-1673426332d2965826-0": {
             "type": "text_block",
@@ -618,8 +619,8 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
               "image_width": 650,
-              "title": "Selected posters",
-              "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "title": "Premier Picks",
+              "text": "<p>A selection of our favourite prints.<\/p>",
               "button_label": "Optional button",
               "button_link": ""
             }
@@ -642,7 +643,7 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/city-behind-greenery.jpg",
               "image_width": 650,
-              "title": "top selection",
+              "title": "Customer Favourites",
               "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
               "button_label": "Optional button",
               "button_link": ""
