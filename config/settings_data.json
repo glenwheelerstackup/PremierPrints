@@ -712,6 +712,17 @@
           "autoplay": true,
           "autoplay_speed": 5
         }
+      },
+      "4f8f9e13-7d92-4913-be6a-0ce04602221c": {
+        "type": "featured-content",
+        "settings": {
+          "title": "Premier Quality Prints Online",
+          "text": "<p>At Premier Prints.....<\/p>",
+          "align_text": "center",
+          "narrow_column": false,
+          "enlarge_text": false,
+          "divider": false
+        }
       }
     },
     "content_for_index": [
@@ -722,7 +733,8 @@
       "12c65984-4817-421f-960d-8f8d3ca4401d",
       "6c539adc-8d0f-4c0c-a342-e38ab95c296a",
       "437fc046-f5cd-430e-9947-723f3184d9cb",
-      "d33e5db7-966d-4274-8d61-b62072a68ab1"
+      "d33e5db7-966d-4274-8d61-b62072a68ab1",
+      "4f8f9e13-7d92-4913-be6a-0ce04602221c"
     ],
     "blocks": {
       "2187360915322861293": {
