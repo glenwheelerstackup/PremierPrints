@@ -662,6 +662,7 @@
       },
       "5386ed70-619f-4579-aef7-80039e6ebec6": {
         "type": "background-image-text",
+        "disabled": true,
         "settings": {
           "subtitle": "",
           "title": "",
@@ -676,9 +677,44 @@
           "framed": false,
           "parallax": false
         }
+      },
+      "a9b68d48-1a99-43dc-869e-efcc781b2b7f": {
+        "type": "slideshow",
+        "blocks": {
+          "a9b68d48-1a99-43dc-869e-efcc781b2b7f-1679252654b8f8c4e2-0": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "",
+              "title_size": 80,
+              "subheading": "Bring your brand to life",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/il_fullxfull.4461938166_rdth.webp",
+              "image_mobile": "shopify:\/\/shop_images\/il_fullxfull.4461938166_rdth_copy.jpg",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "a9b68d48-1a99-43dc-869e-efcc781b2b7f-1679252654b8f8c4e2-0"
+        ],
+        "settings": {
+          "section_height": "650px",
+          "mobile_height": "auto",
+          "parallax": true,
+          "style": "minimal",
+          "autoplay": true,
+          "autoplay_speed": 5
+        }
       }
     },
     "content_for_index": [
+      "a9b68d48-1a99-43dc-869e-efcc781b2b7f",
       "5386ed70-619f-4579-aef7-80039e6ebec6",
       "206ecda9-ff28-4e39-8ca7-ccd8516fce48",
       "1da123cb-abf3-4cf6-88d1-dc81c098e6c7",
