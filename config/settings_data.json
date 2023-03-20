@@ -521,10 +521,10 @@
       "1da123cb-abf3-4cf6-88d1-dc81c098e6c7": {
         "type": "featured-collection",
         "settings": {
-          "title": "best sellers",
-          "home_featured_products": "",
-          "per_row": 5,
-          "rows": 1,
+          "title": "Just Arrived",
+          "home_featured_products": "new-in",
+          "per_row": 4,
+          "rows": 2,
           "mobile_scrollable": false,
           "view_all": true,
           "divider": false
@@ -533,10 +533,10 @@
       "12c65984-4817-421f-960d-8f8d3ca4401d": {
         "type": "featured-collection",
         "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "",
-          "per_row": 5,
-          "rows": 1,
+          "title": "Photography Prints",
+          "home_featured_products": "photography",
+          "per_row": 4,
+          "rows": 2,
           "mobile_scrollable": false,
           "view_all": true,
           "divider": false
@@ -545,10 +545,10 @@
       "6c539adc-8d0f-4c0c-a342-e38ab95c296a": {
         "type": "featured-collection",
         "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "",
-          "per_row": 5,
-          "rows": 1,
+          "title": "Living Room Prints",
+          "home_featured_products": "living-room",
+          "per_row": 4,
+          "rows": 2,
           "mobile_scrollable": false,
           "view_all": true,
           "divider": false
@@ -557,10 +557,10 @@
       "437fc046-f5cd-430e-9947-723f3184d9cb": {
         "type": "featured-collection",
         "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "",
-          "per_row": 5,
-          "rows": 1,
+          "title": "Kitchen Prints",
+          "home_featured_products": "kitchen-prints",
+          "per_row": 4,
+          "rows": 2,
           "mobile_scrollable": false,
           "view_all": true,
           "divider": false
@@ -611,6 +611,7 @@
       },
       "206ecda9-ff28-4e39-8ca7-ccd8516fce48": {
         "type": "text-columns",
+        "disabled": true,
         "blocks": {
           "206ecda9-ff28-4e39-8ca7-ccd8516fce48-1673426332d2965826-0": {
             "type": "text_block",
@@ -618,8 +619,8 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
               "image_width": 650,
-              "title": "Selected posters",
-              "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "title": "Premier Picks",
+              "text": "<p>A selection of our favourite prints.<\/p>",
               "button_label": "Optional button",
               "button_link": ""
             }
@@ -642,7 +643,7 @@
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/city-behind-greenery.jpg",
               "image_width": 650,
-              "title": "top selection",
+              "title": "Customer Favourites",
               "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
               "button_label": "Optional button",
               "button_link": ""
@@ -662,13 +663,14 @@
       },
       "5386ed70-619f-4579-aef7-80039e6ebec6": {
         "type": "background-image-text",
+        "disabled": true,
         "settings": {
           "subtitle": "",
           "title": "",
           "text": "",
           "button_label": "",
           "button_link": "",
-          "image": "shopify:\/\/shop_images\/Hero_Image.jpg",
+          "image": "shopify:\/\/shop_images\/gallery-wall-inspiration-1.jpg",
           "focal_point": "center",
           "color_border": "#f4f4f4",
           "layout": "left",
@@ -676,15 +678,62 @@
           "framed": false,
           "parallax": false
         }
+      },
+      "a9b68d48-1a99-43dc-869e-efcc781b2b7f": {
+        "type": "slideshow",
+        "blocks": {
+          "a9b68d48-1a99-43dc-869e-efcc781b2b7f-1679252654b8f8c4e2-0": {
+            "type": "image",
+            "settings": {
+              "top_subheading": "",
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "link_2": "",
+              "link_text_2": "",
+              "color_accent": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/gallery-wall-inspiration-1.jpg",
+              "image_mobile": "shopify:\/\/shop_images\/gallery-wall-inspiration-3.jpg",
+              "focal_point": "20% 0"
+            }
+          }
+        },
+        "block_order": [
+          "a9b68d48-1a99-43dc-869e-efcc781b2b7f-1679252654b8f8c4e2-0"
+        ],
+        "settings": {
+          "section_height": "750px",
+          "mobile_height": "auto",
+          "parallax": true,
+          "style": "minimal",
+          "autoplay": true,
+          "autoplay_speed": 5
+        }
+      },
+      "4f8f9e13-7d92-4913-be6a-0ce04602221c": {
+        "type": "featured-content",
+        "settings": {
+          "title": "Premier Quality Prints Online",
+          "text": "<p>At Premier Prints you'll be sure to find something that matches your style and tastes. We offer an ever growing collection of prints including photography, classic black and white, modern abstract, typographic, illustrations and super cute kids prints.<\/p><p>What makes our prints premier quality? We only use paper environemntally certified by FSC. It is an uncoated premium matte paper with a total weight of 210gsm. This exceptional paper stock has a smooth texture with a warm white tone for creating a beautiful non-reflective print, which is perfect for mono and colour photography prints as well as illustrations where warm colours and grey tones are beautifully expressed.<\/p><p>We offer all our prints in the most popular sizes. These include A5, A4, A3, A2, 20x30cm 30x40cm and 40x50cm. All our prints are printed full bleed, carefully packaged and delivered quickly and ready for framing and hanging. <\/p><p>There're many ways to decorate your home with our beautiful poster prints. Why not create a gallery wall in your living room, dining room or staircase? One of our favourites is to hang two or more in your office space or bedroom to create a wonderful atmosphere. <\/p><p>Also, be sure to join our mailing list to be the first to know about our latest offers, discounts, new product launches and much, much more! <\/p>",
+          "align_text": "center",
+          "narrow_column": false,
+          "enlarge_text": false,
+          "divider": false
+        }
       }
     },
     "content_for_index": [
+      "a9b68d48-1a99-43dc-869e-efcc781b2b7f",
       "5386ed70-619f-4579-aef7-80039e6ebec6",
       "206ecda9-ff28-4e39-8ca7-ccd8516fce48",
       "1da123cb-abf3-4cf6-88d1-dc81c098e6c7",
       "12c65984-4817-421f-960d-8f8d3ca4401d",
       "6c539adc-8d0f-4c0c-a342-e38ab95c296a",
       "437fc046-f5cd-430e-9947-723f3184d9cb",
+      "4f8f9e13-7d92-4913-be6a-0ce04602221c",
       "d33e5db7-966d-4274-8d61-b62072a68ab1"
     ],
     "blocks": {
