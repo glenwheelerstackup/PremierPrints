@@ -11255,10 +11255,11 @@ html[dir=rtl] .product-single__meta .rte{
 
   .sticky-button {
     display: block;
-  /*   position: fixed; */
+    position: fixed;
     bottom: 0;
     left: 0;
     z-index: 100;
     width: 100%;
     background:  yellow;
+    padding: 20px;
   }
