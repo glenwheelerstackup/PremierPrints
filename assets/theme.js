@@ -4095,19 +4095,6 @@ lazySizesConfig.expFactor = 4;
           $(this.selectors.addToCartText).html(theme.strings.unavailable);
         }
       },
-
-      $(window).scroll(function() {
-        // Code from websensepro.com
-        //After scrolling 300px from the top...
-        if ( $(window).scrollTop() >= 300 ) {
-            $('.sticky-button').css('position', 'fixed');
-      
-        //Otherwise remove inline styles and thereby revert to original stying
-        } else {
-            $('.sticky-button').attr('style', '');
-      
-        }
-      });
   
       updatePrice: function(evt) {
         var variant = evt.variant;
