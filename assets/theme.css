@@ -11250,3 +11250,14 @@ html[dir=rtl] .product-single__meta .rte{
 
   .site-header {padding: 2px 0;}
   }
+
+  /* CREATE STIVKY BUTTON */
+
+  .sticky-button {
+    display: block;
+  /*   position: fixed; */
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+  }
