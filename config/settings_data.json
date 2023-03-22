@@ -109,10 +109,10 @@
           "39b2f6ea-21a7-40c9-a707-44dd5d2a4cd6": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/Premier-Prints.png",
-              "logo-inverted": "shopify:\/\/shop_images\/Premier-Prints-Logo-White.png",
-              "desktop_logo_width": 160,
-              "mobile_logo_width": 140
+              "logo": "shopify:\/\/shop_images\/PREMIER-PRINTS-BLACK.png",
+              "logo-inverted": "shopify:\/\/shop_images\/PREMIER-PRINTS-WHITE_62e83213-0a95-44de-b411-23398ef1f451.png",
+              "desktop_logo_width": 120,
+              "mobile_logo_width": 110
             }
           }
         },
