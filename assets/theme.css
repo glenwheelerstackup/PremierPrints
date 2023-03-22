@@ -11260,4 +11260,5 @@ html[dir=rtl] .product-single__meta .rte{
     left: 0;
     z-index: 100;
     width: 100%;
+    background:  yellow;
   }
