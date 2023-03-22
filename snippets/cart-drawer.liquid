@@ -5,58 +5,7 @@
         <div class="drawer__header appear-animation appear-delay-1">
           <div class="h2 drawer__title">{{ 'cart.general.title' | t }}</div>
 
-          
-
-
-        <script>
-          export function calculateProgress(currentVal, targetVal) {
-            const result = Math.round((100 * currentVal) / targetVal)
-          
-            // Progress bar, set the width
-            $('.cart-shipping__progress').css({
-              width: `${result}%`,
-            })
-          
-            const newProgressNum = ((targetVal - currentVal) / 100).toFixed(2)
-          
-            // If the customer is eligible for free shipping
-            if (newProgressNum <= 0) {
-              $('.cart-shipping__eligible').show()
-              _hideLoading()
-            } else {
-              // Otherwise, they are in progress
-              $('.cart-shipping__num').text(newProgressNum)
-              $('.cart-shipping__in-progress').show()
-              _hideLoading()
-            }
-          
-            function _hideLoading() {
-              $('.cart-shipping__loading').hide()
-            }
-          }
-        </script>
-
-
-          <!-- PROGRESS FOR FREE SHIPPING -->
-          <div class="cart-shipping__in-progress" style="display: none;">
-            <p>
-              You're <strong>£</strong><span class="cart-shipping__num"></span>
-              away from free shipping!
-            </p>
-            
-            <div class="cart-shipping__progress-bar">
-              <span class="cart-shipping__progress"></span>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
+    
           <div class="drawer__close">
             <button type="button" class="drawer__close-button js-drawer-close">
               <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/></svg>
