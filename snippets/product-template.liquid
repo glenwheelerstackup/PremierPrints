@@ -1,3 +1,17 @@
+<script>
+  myID = document.getElementById("scroll-add-to-basket");
+
+  var myScrollFunc = function () {
+      var y = window.scrollY;
+      if (y >= 800) {
+          myID.className = "scroll-add-to-basket show"
+      } else {
+          myID.className = "scroll-add-to-basket hide"
+      }
+  };
+  
+  window.addEventListener("scroll", myScrollFunc);
+</script>
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
 
@@ -329,7 +343,7 @@
     </div>
   </div>
 
-  <div class="sticky-button">
+  <div id="scroll-add-to-basket" class="docked-cta hide">
     <button
       {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
       name="add"
