@@ -1,17 +1,3 @@
-<script>
-  myID = document.getElementById("scroll-add-to-basket");
-
-  var myScrollFunc = function () {
-      var y = window.scrollY;
-      if (y >= 800) {
-          myID.className = "scroll-add-to-basket show"
-      } else {
-          myID.className = "scroll-add-to-basket hide"
-      }
-  };
-  
-  window.addEventListener("scroll", myScrollFunc);
-</script>
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
 
@@ -342,20 +328,6 @@
       {%- endif -%}
 
     </div>
-
-    <div id="scroll-add-to-basket" class="docked-cta hide">
-      <button
-        {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
-        name="add"
-        id="AddToCart-{{ section_id }}"
-        class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %}"
-        {% unless current_variant.available %} disabled="disabled"{% endunless %}>
-        <span id="AddToCartText-{{ section_id }}" data-default-text="{{ default_text }}">
-          {{ button_text }}
-        </span>
-      </button>
-    </div>
-    
   </div>
 
 
