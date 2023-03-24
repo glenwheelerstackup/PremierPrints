@@ -105,7 +105,7 @@
             "type": "announcement",
             "settings": {
               "text": "Free shipping",
-              "link_text": "On orders over £30",
+              "link_text": "On orders over £40",
               "link": "shopify:\/\/collections"
             }
           },
