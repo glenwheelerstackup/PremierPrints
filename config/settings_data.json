@@ -664,24 +664,6 @@
           "divider": false
         }
       },
-      "5386ed70-619f-4579-aef7-80039e6ebec6": {
-        "type": "background-image-text",
-        "disabled": true,
-        "settings": {
-          "subtitle": "",
-          "title": "",
-          "text": "",
-          "button_label": "",
-          "button_link": "",
-          "image": "shopify:\/\/shop_images\/gallery-wall-inspiration-1.jpg",
-          "focal_point": "center",
-          "color_border": "#f4f4f4",
-          "layout": "left",
-          "height": 750,
-          "framed": false,
-          "parallax": false
-        }
-      },
       "a9b68d48-1a99-43dc-869e-efcc781b2b7f": {
         "type": "slideshow",
         "blocks": {
@@ -726,12 +708,52 @@
           "enlarge_text": false,
           "divider": false
         }
+      },
+      "06f1bb8e-d2a7-4193-8e77-8f3af1c4c888": {
+        "type": "promo-grid",
+        "blocks": {
+          "06f1bb8e-d2a7-4193-8e77-8f3af1c4c888-1679861729bf22de9b-0": {
+            "type": "simple",
+            "settings": {
+              "link": "",
+              "text": "",
+              "image": "shopify:\/\/shop_images\/gallery-wall-inspiration-1.jpg",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          },
+          "06f1bb8e-d2a7-4193-8e77-8f3af1c4c888-1679861729bf22de9b-1": {
+            "type": "simple",
+            "settings": {
+              "link": "",
+              "text": "",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          }
+        },
+        "block_order": [
+          "06f1bb8e-d2a7-4193-8e77-8f3af1c4c888-1679861729bf22de9b-0",
+          "06f1bb8e-d2a7-4193-8e77-8f3af1c4c888-1679861729bf22de9b-1"
+        ],
+        "settings": {
+          "full_width": true,
+          "gutter_size": 10,
+          "space_above": true,
+          "space_below": true
+        }
       }
     },
     "content_for_index": [
       "a9b68d48-1a99-43dc-869e-efcc781b2b7f",
-      "5386ed70-619f-4579-aef7-80039e6ebec6",
       "206ecda9-ff28-4e39-8ca7-ccd8516fce48",
+      "06f1bb8e-d2a7-4193-8e77-8f3af1c4c888",
       "1da123cb-abf3-4cf6-88d1-dc81c098e6c7",
       "12c65984-4817-421f-960d-8f8d3ca4401d",
       "6c539adc-8d0f-4c0c-a342-e38ab95c296a",
