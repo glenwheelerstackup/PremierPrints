@@ -711,6 +711,7 @@
       },
       "06f1bb8e-d2a7-4193-8e77-8f3af1c4c888": {
         "type": "promo-grid",
+        "disabled": true,
         "blocks": {
           "06f1bb8e-d2a7-4193-8e77-8f3af1c4c888-1679861729bf22de9b-0": {
             "type": "simple",
@@ -722,7 +723,7 @@
               "height": 300,
               "color_tint": "#000000",
               "color_tint_opacity": 8,
-              "framed": false
+              "framed": true
             }
           },
           "06f1bb8e-d2a7-4193-8e77-8f3af1c4c888-1679861729bf22de9b-1": {
@@ -730,8 +731,9 @@
             "settings": {
               "link": "",
               "text": "",
+              "image": "shopify:\/\/shop_images\/gallery-wall-inspiration-1.jpg",
               "width": "50",
-              "height": 300,
+              "height": 420,
               "color_tint": "#000000",
               "color_tint_opacity": 8,
               "framed": false
@@ -744,7 +746,7 @@
         ],
         "settings": {
           "full_width": true,
-          "gutter_size": 10,
+          "gutter_size": 5,
           "space_above": true,
           "space_below": true
         }
