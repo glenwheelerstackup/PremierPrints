@@ -101,14 +101,6 @@
       "header": {
         "type": "header",
         "blocks": {
-          "1521051841065": {
-            "type": "announcement",
-            "settings": {
-              "text": "Free shipping",
-              "link_text": "On orders over £40",
-              "link": "shopify:\/\/collections"
-            }
-          },
           "39b2f6ea-21a7-40c9-a707-44dd5d2a4cd6": {
             "type": "logo",
             "settings": {
@@ -117,11 +109,28 @@
               "desktop_logo_width": 120,
               "mobile_logo_width": 110
             }
+          },
+          "1521051841065": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free shipping",
+              "link_text": "On orders over £40",
+              "link": "shopify:\/\/collections"
+            }
+          },
+          "068bf16a-597d-40c4-b5f0-7a93c6173f5c": {
+            "type": "announcement",
+            "settings": {
+              "text": "PAY YOUR WAY",
+              "link_text": "With Credit or Debit Card, Clearpay, Klarna, PayPal, Apple Pay, Google Pay and Many More.",
+              "link": ""
+            }
           }
         },
         "block_order": [
+          "39b2f6ea-21a7-40c9-a707-44dd5d2a4cd6",
           "1521051841065",
-          "39b2f6ea-21a7-40c9-a707-44dd5d2a4cd6"
+          "068bf16a-597d-40c4-b5f0-7a93c6173f5c"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
