@@ -120,6 +120,7 @@
           },
           "068bf16a-597d-40c4-b5f0-7a93c6173f5c": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "PAY YOUR WAY",
               "link_text": "With Credit or Debit Card, Clearpay, Klarna, PayPal, Apple Pay, Google Pay and Many More.",
