@@ -54,7 +54,7 @@
     "product_grid_image_size": "square",
     "product_hover_image": false,
     "sku_enable": false,
-    "quantity_enable": false,
+    "quantity_enable": true,
     "variant_type": "dropdown",
     "inventory_enable": false,
     "product_zoom_enable": false,
