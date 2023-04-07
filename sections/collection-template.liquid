@@ -11,6 +11,8 @@
   {%- if section.settings.description_position == 'top' -%}
     {%- if collection.description != blank -%}
       <div class="rte collection-panel">
+        {%- render 'breadcrumbs' -%}
+        <h1 class="section-header__title">{{ collection.title }}</h1>
         {{ collection.description }}
       </div>
       <hr class="hr--clear hr--small">
