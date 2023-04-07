@@ -11250,3 +11250,10 @@ html[dir=rtl] .product-single__meta .rte{
 
   .site-header {padding: 2px 0;}
   }
+
+  /* CUSTOM CODE */
+  .collection-panel{
+    padding: 40px;
+    background: #FFF2C9;
+    color:#000;
+  }
