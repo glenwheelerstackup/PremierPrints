@@ -172,8 +172,8 @@
           "8f11d589-6c35-4679-ab59-5e5613f92a50": {
             "type": "newsletter",
             "settings": {
-              "show_footer_title": false,
-              "title": "",
+              "show_footer_title": true,
+              "title": "Let's stay in touch",
               "text": "<p>Join our newsletter and be the first to hear about our fantastic offers, news and giveaways.<\/p>",
               "container_width": 40
             }
