@@ -456,7 +456,7 @@
             "type": "tags_group",
             "settings": {
               "title": "Style",
-              "tag_list": "First tag \nSecond tag \nThird tag",
+              "tag_list": "Portrait\nLandcape \nThird tag",
               "collapsed": false
             }
           },
