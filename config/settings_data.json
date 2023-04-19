@@ -485,6 +485,14 @@
               "collapsed": true
             }
           },
+          "563018a4-4d49-48b1-a738-91458bc8f127": {
+            "type": "menu",
+            "settings": {
+              "title": "",
+              "menu": "shop-by-room",
+              "collapsed": false
+            }
+          },
           "82581619-9262-4a69-8fd0-a4e17c9a9743": {
             "type": "menu",
             "settings": {
@@ -500,6 +508,7 @@
           "f9d37c8a-e5cb-4dff-9a75-aadafff0353d",
           "1524772580942",
           "b51dec89-b4be-4c3b-b45d-a08b37e543ae",
+          "563018a4-4d49-48b1-a738-91458bc8f127",
           "82581619-9262-4a69-8fd0-a4e17c9a9743"
         ],
         "settings": {
