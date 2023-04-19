@@ -452,8 +452,25 @@
               "collapsed": false
             }
           },
+          "3bb3e73e-79e6-4221-9e10-cb66ed54cd7e": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Style",
+              "tag_list": "First tag \nSecond tag \nThird tag",
+              "collapsed": false
+            }
+          },
+          "f9d37c8a-e5cb-4dff-9a75-aadafff0353d": {
+            "type": "tags_group",
+            "settings": {
+              "title": "Colour",
+              "tag_list": "First tag \nSecond tag \nThird tag",
+              "collapsed": false
+            }
+          },
           "1524772580942": {
             "type": "tags_all",
+            "disabled": true,
             "settings": {
               "title": "Style",
               "collapsed": true
@@ -466,22 +483,14 @@
               "title": "Colour",
               "collapsed": true
             }
-          },
-          "f9d37c8a-e5cb-4dff-9a75-aadafff0353d": {
-            "type": "tags_group",
-            "disabled": true,
-            "settings": {
-              "title": "Tag Group",
-              "tag_list": "First tag \nSecond tag \nThird tag",
-              "collapsed": false
-            }
           }
         },
         "block_order": [
           "1524772785241",
+          "3bb3e73e-79e6-4221-9e10-cb66ed54cd7e",
+          "f9d37c8a-e5cb-4dff-9a75-aadafff0353d",
           "1524772580942",
-          "b51dec89-b4be-4c3b-b45d-a08b37e543ae",
-          "f9d37c8a-e5cb-4dff-9a75-aadafff0353d"
+          "b51dec89-b4be-4c3b-b45d-a08b37e543ae"
         ],
         "settings": {
           "enable_sidebar": true,
