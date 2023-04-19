@@ -455,7 +455,7 @@
           "1524772580942": {
             "type": "tags_all",
             "settings": {
-              "title": "Filter By",
+              "title": "Style",
               "collapsed": true
             }
           },
@@ -463,7 +463,7 @@
             "type": "tags_all",
             "disabled": true,
             "settings": {
-              "title": "Tags",
+              "title": "Colour",
               "collapsed": true
             }
           },
