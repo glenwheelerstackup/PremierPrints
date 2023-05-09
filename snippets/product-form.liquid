@@ -58,21 +58,14 @@
     </div>
   {%- endif -%}
 
-
-
 {% for c in product.collections %}
   {% if c.handle == "personalised-prints" %}
     <div class="personalisation-property">
       <label for="fname">Add Personalisation:</label>
-      <input type="text" id="personalised-text" name="personalised-text" placeholder="Add your text here...">
+      <input type="text" id="personalised-text" name="personalised-text" class="personalisation-box" placeholder="Add your text here...">
     </div>
   {% endif %}
 {% endfor %}
-
-
-
-
-  
 
   {%- assign inventory_visible = false -%}
   {%- if settings.inventory_enable and current_variant.inventory_management == 'shopify' -%}

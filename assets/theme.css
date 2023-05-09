@@ -11268,7 +11268,7 @@ html[dir=rtl] .product-single__meta .rte{
     display: block;
   }
 
-  .personalisation-property input[type="text"]{
+.personalisation-box{
     display: block;
     max-width: 500px;
     margin: 0 0 20px 0;
