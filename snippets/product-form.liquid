@@ -58,7 +58,18 @@
     </div>
   {%- endif -%}
 
-  ADD SOMETHING RIGHT HERE?
+
+
+  {% for tag in product.tags %}
+    {% if tag contains 'Personalised' %}
+      ADD SOMETHING RIGHT HERE?
+    {% endif %}
+  {% endfor %}
+
+
+
+
+  
 
   {%- assign inventory_visible = false -%}
   {%- if settings.inventory_enable and current_variant.inventory_management == 'shopify' -%}
