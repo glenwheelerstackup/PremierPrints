@@ -62,7 +62,10 @@
 
 {% for c in product.collections %}
   {% if c.handle == "personalised-prints" %}
-    Input custom text here. HTML is fine, as are other liquid modifiers.  
+    <div class="personalisation-property">
+      <label for="fname">Add Personalisation:</label>
+      <input type="text" id="personalised-text" name="personalised-text">
+    </div>
   {% endif %}
 {% endfor %}
 

@@ -11257,3 +11257,7 @@ html[dir=rtl] .product-single__meta .rte{
     background: #DECEC2;
     color:#000;
   }
+
+  .personalisation-property label{
+    display: block;
+  }
