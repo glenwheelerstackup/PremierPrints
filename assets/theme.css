@@ -11261,8 +11261,15 @@ html[dir=rtl] .product-single__meta .rte{
   .personalisation-property{
     display: block;
     margin: 0 0 20px 0;
+    width: 100%;
   }
 
   .personalisation-property label{
     display: block;
+  }
+
+  .personalisation-property input[type=text]{
+    display: block;
+    max-width: 500px;
+    margin: 0 0 20px 0;
   }
