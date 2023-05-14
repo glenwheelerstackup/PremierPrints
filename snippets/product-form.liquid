@@ -64,8 +64,8 @@
         <label for="personalised-text">Add Personalisation:</label>
         <input name="properties[Personalised Text]" type="text" id="personalised-text" class="personalisation-box" placeholder="Add your text here...">
       </div>
+      {% break %}
     {% endif %}
-    {% break %}
   {% endfor %}
 
   {%- assign inventory_visible = false -%}
