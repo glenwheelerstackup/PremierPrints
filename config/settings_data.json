@@ -82,6 +82,7 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
+    "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
     "disable_animations": false,
