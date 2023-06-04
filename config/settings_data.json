@@ -811,7 +811,7 @@
           "section_height": "650px",
           "mobile_height": "100vh",
           "parallax": false,
-          "style": "minimal",
+          "style": "arrows",
           "autoplay": true,
           "autoplay_speed": 8
         }
