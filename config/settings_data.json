@@ -751,6 +751,7 @@
       },
       "cde04b44-117b-40a1-81f4-d51f9a917d86": {
         "type": "text-and-image",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/print-your-own-1.jpg",
           "image_width": 500,
