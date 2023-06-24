@@ -58,7 +58,7 @@
     "variant_type": "dropdown",
     "inventory_enable": false,
     "product_zoom_enable": true,
-    "product_color_swatches": false,
+    "product_color_swatches": true,
     "collection_color_swatches": false,
     "product_contact": false,
     "enable_product_reviews": false,
