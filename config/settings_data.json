@@ -815,10 +815,25 @@
           "autoplay": true,
           "autoplay_speed": 8
         }
+      },
+      "06a94663-a51a-47af-af7f-28e65ddc6677": {
+        "type": "text-and-image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/monopoly-prints-cover.jpg",
+          "image_width": 500,
+          "subtitle": "Spotlight",
+          "title": "Personalised Monopoly Street Name Poster",
+          "text": "<p>Fun, quirky and an all time classic. The perfect housewarming gift or a gift from you, to you for your fabulous new home. Why not explore the 14 different colours available?<\/p>",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/products\/personalised-monopoly-street-name-poster",
+          "layout": "left",
+          "divider": false
+        }
       }
     },
     "content_for_index": [
       "a9b68d48-1a99-43dc-869e-efcc781b2b7f",
+      "06a94663-a51a-47af-af7f-28e65ddc6677",
       "206ecda9-ff28-4e39-8ca7-ccd8516fce48",
       "1da123cb-abf3-4cf6-88d1-dc81c098e6c7",
       "cde04b44-117b-40a1-81f4-d51f9a917d86",
