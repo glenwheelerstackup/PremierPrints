@@ -652,58 +652,6 @@
           "page_content_enable": true
         }
       },
-      "206ecda9-ff28-4e39-8ca7-ccd8516fce48": {
-        "type": "text-columns",
-        "disabled": true,
-        "blocks": {
-          "206ecda9-ff28-4e39-8ca7-ccd8516fce48-1673426332d2965826-0": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/silver-lamp-on-a-white-table-next-to-books.jpg",
-              "image_width": 650,
-              "title": "Premier Picks",
-              "text": "<p>A selection of our favourite prints.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          },
-          "206ecda9-ff28-4e39-8ca7-ccd8516fce48-1673426332d2965826-1": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/a-woman-in-an-art-gallery-ponders-a-degas-painting.jpg",
-              "image_width": 650,
-              "title": "New arrivals",
-              "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          },
-          "206ecda9-ff28-4e39-8ca7-ccd8516fce48-1673426332d2965826-2": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/city-behind-greenery.jpg",
-              "image_width": 650,
-              "title": "Customer Favourites",
-              "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "206ecda9-ff28-4e39-8ca7-ccd8516fce48-1673426332d2965826-0",
-          "206ecda9-ff28-4e39-8ca7-ccd8516fce48-1673426332d2965826-1",
-          "206ecda9-ff28-4e39-8ca7-ccd8516fce48-1673426332d2965826-2"
-        ],
-        "settings": {
-          "title": "",
-          "align_text": "center",
-          "divider": false
-        }
-      },
       "a9b68d48-1a99-43dc-869e-efcc781b2b7f": {
         "type": "slideshow",
         "blocks": {
@@ -873,10 +821,9 @@
     },
     "content_for_index": [
       "a9b68d48-1a99-43dc-869e-efcc781b2b7f",
+      "1da123cb-abf3-4cf6-88d1-dc81c098e6c7",
       "11dec08d-df8d-4a57-acb9-d37b26c0a89e",
       "06a94663-a51a-47af-af7f-28e65ddc6677",
-      "206ecda9-ff28-4e39-8ca7-ccd8516fce48",
-      "1da123cb-abf3-4cf6-88d1-dc81c098e6c7",
       "cde04b44-117b-40a1-81f4-d51f9a917d86",
       "55c722da-39a7-4bbf-9b8c-0d8dde6edf46",
       "12c65984-4817-421f-960d-8f8d3ca4401d",
