@@ -821,7 +821,7 @@
         "settings": {
           "image": "shopify:\/\/shop_images\/monopoly-prints-cover.jpg",
           "image_width": 500,
-          "subtitle": "Spotlight",
+          "subtitle": "",
           "title": "Personalised Monopoly Street Name Poster",
           "text": "<p>Fun, quirky and an all time classic. The perfect housewarming gift or a gift to yourself for your fabulous new home. Why not explore the 14 different colours available?<\/p>",
           "button_label": "Shop Now",
@@ -829,10 +829,51 @@
           "layout": "left",
           "divider": false
         }
+      },
+      "11dec08d-df8d-4a57-acb9-d37b26c0a89e": {
+        "type": "text-and-image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/KISS-Framed-Dark.jpg",
+          "image_width": 500,
+          "subtitle": "",
+          "title": "Rock 'N' Roll Royalty",
+          "text": "<p>Inspired by KISS's unrivalled performances. Hang it on your wall and let the electrifying spirit of \"Crazy Nights\" ignite your rock 'n' roll soul.<\/p>",
+          "button_label": "Shop Now",
+          "button_link": "shopify:\/\/products\/rock-music-poster-kiss-crazy-nights",
+          "layout": "right",
+          "divider": false
+        }
+      },
+      "4fa644a7-7135-4830-81a7-540310144105": {
+        "type": "promo-grid",
+        "blocks": {
+          "4fa644a7-7135-4830-81a7-540310144105-16876999057b5e325f-1": {
+            "type": "simple",
+            "settings": {
+              "link": "",
+              "text": "",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          }
+        },
+        "block_order": [
+          "4fa644a7-7135-4830-81a7-540310144105-16876999057b5e325f-1"
+        ],
+        "settings": {
+          "full_width": false,
+          "gutter_size": 20,
+          "space_above": true,
+          "space_below": true
+        }
       }
     },
     "content_for_index": [
       "a9b68d48-1a99-43dc-869e-efcc781b2b7f",
+      "11dec08d-df8d-4a57-acb9-d37b26c0a89e",
       "06a94663-a51a-47af-af7f-28e65ddc6677",
       "206ecda9-ff28-4e39-8ca7-ccd8516fce48",
       "1da123cb-abf3-4cf6-88d1-dc81c098e6c7",
@@ -842,7 +883,8 @@
       "6c539adc-8d0f-4c0c-a342-e38ab95c296a",
       "437fc046-f5cd-430e-9947-723f3184d9cb",
       "4f8f9e13-7d92-4913-be6a-0ce04602221c",
-      "d33e5db7-966d-4274-8d61-b62072a68ab1"
+      "d33e5db7-966d-4274-8d61-b62072a68ab1",
+      "4fa644a7-7135-4830-81a7-540310144105"
     ],
     "blocks": {
       "2187360915322861293": {
