@@ -791,32 +791,6 @@
           "layout": "right",
           "divider": false
         }
-      },
-      "4fa644a7-7135-4830-81a7-540310144105": {
-        "type": "promo-grid",
-        "blocks": {
-          "4fa644a7-7135-4830-81a7-540310144105-16876999057b5e325f-1": {
-            "type": "simple",
-            "settings": {
-              "link": "",
-              "text": "",
-              "width": "50",
-              "height": 300,
-              "color_tint": "#000000",
-              "color_tint_opacity": 8,
-              "framed": false
-            }
-          }
-        },
-        "block_order": [
-          "4fa644a7-7135-4830-81a7-540310144105-16876999057b5e325f-1"
-        ],
-        "settings": {
-          "full_width": false,
-          "gutter_size": 20,
-          "space_above": true,
-          "space_below": true
-        }
       }
     },
     "content_for_index": [
@@ -830,8 +804,7 @@
       "6c539adc-8d0f-4c0c-a342-e38ab95c296a",
       "437fc046-f5cd-430e-9947-723f3184d9cb",
       "4f8f9e13-7d92-4913-be6a-0ce04602221c",
-      "d33e5db7-966d-4274-8d61-b62072a68ab1",
-      "4fa644a7-7135-4830-81a7-540310144105"
+      "d33e5db7-966d-4274-8d61-b62072a68ab1"
     ],
     "blocks": {
       "2187360915322861293": {
