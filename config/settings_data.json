@@ -337,87 +337,31 @@
       "page-sections-template": {
         "type": "page-sections-template",
         "blocks": {
-          "acf23f35-5385-4287-b932-6240ce71899f": {
+          "fa8365e6-49fc-405b-b933-ebf445637004": {
             "type": "image-hero",
             "settings": {
-              "parallax": false,
-              "title": "M&M Photography",
-              "title_size": 65,
-              "subheading": "Based in the Midlands, M & M Photography boast over 40 years of Photography experience and specialise in the automotive, nature, animals and events.",
-              "link": "shopify:\/\/collections\/special-edition",
-              "link_text": "Shop Now",
+              "parallax": true,
+              "title": "Grab your 25% discount code now.",
+              "title_size": 80,
+              "subheading": "Simply sign up for our epic newsletter and receive 25% off your next order.",
+              "link": "",
+              "link_text": "Optional button",
               "link_2": "",
               "link_text_2": "",
               "color_accent": "rgba(0,0,0,0)",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/a-yellow-car-parked-on-a-lush-country-road.jpg",
               "focal_point": "center center",
-              "section_height": "100vh",
+              "section_height": "650px",
               "mobile_height": "auto"
-            }
-          },
-          "page-featured-collection": {
-            "type": "featured-collection",
-            "settings": {
-              "title": "M&M Photography",
-              "collection": "special-edition",
-              "per_row": 4,
-              "rows": 1,
-              "mobile_scrollable": false,
-              "view_all": true
-            }
-          },
-          "a25310b0-fd35-409f-a896-6d7cff1bcb7d": {
-            "type": "image-hero",
-            "settings": {
-              "parallax": false,
-              "title": "Glen Wheeler",
-              "title_size": 65,
-              "subheading": "A North East based automotive photographer and Formula 1 mega fan. Explore his incredible shots from many F1 races from around the globe.",
-              "link": "shopify:\/\/collections\/glen-wheeler",
-              "link_text": "Shop Now",
-              "link_2": "",
-              "link_text_2": "",
-              "color_accent": "rgba(0,0,0,0)",
-              "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/sports-car-silhouette.jpg",
-              "focal_point": "center center",
-              "section_height": "100vh",
-              "mobile_height": "auto"
-            }
-          },
-          "76effe83-be1e-4750-8190-dd8226388f4f": {
-            "type": "featured-collection",
-            "settings": {
-              "title": "Glen Wheeler",
-              "collection": "glen-wheeler",
-              "per_row": 4,
-              "rows": 1,
-              "mobile_scrollable": false,
-              "view_all": true
-            }
-          },
-          "9a28fb01-8f23-4c64-ae0a-e78f17d598a8": {
-            "type": "rich-text",
-            "settings": {
-              "title": "Feature With Us!",
-              "text": "<p>We love to work with new Artists and Photographers so please <a href=\"\/pages\/contact\" title=\"Contact\">contact us<\/a> to discuss featuring your work. <\/p>",
-              "align_text": "center",
-              "narrow_column": true,
-              "enlarge_text": false
             }
           }
         },
         "block_order": [
-          "acf23f35-5385-4287-b932-6240ce71899f",
-          "page-featured-collection",
-          "a25310b0-fd35-409f-a896-6d7cff1bcb7d",
-          "76effe83-be1e-4750-8190-dd8226388f4f",
-          "9a28fb01-8f23-4c64-ae0a-e78f17d598a8"
+          "fa8365e6-49fc-405b-b933-ebf445637004"
         ],
         "settings": {
-          "page_title_enable": true,
-          "page_content_enable": true
+          "page_title_enable": false,
+          "page_content_enable": false
         }
       },
       "newsletter-popup": {
