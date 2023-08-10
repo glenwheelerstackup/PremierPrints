@@ -131,7 +131,7 @@ src="https://www.facebook.com/tr?id=614259553954809&ev=PageView&noscript=1"
     {%- section 'header' -%}
 
       <main class="main-content" id="MainContent">
-        {{ content_for_layout }}
+        {% capture BUILDIFY_CONTENT_FOR_LAYOUT %}{{ content_for_layout }}{% endcapture %}{% render 'buildify-variables', BUILDIFY_CONTENT_FOR_LAYOUT: BUILDIFY_CONTENT_FOR_LAYOUT %}
       </main>
 
       {%- section 'footer-promotions' -%}

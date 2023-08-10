@@ -46,7 +46,7 @@
       {%- section 'giftcard-header' -%}
 
       <main class="giftcard" role="main">
-        {{ content_for_layout }}
+        {% capture BUILDIFY_CONTENT_FOR_LAYOUT %}{{ content_for_layout }}{% endcapture %}{% render 'buildify-variables', BUILDIFY_CONTENT_FOR_LAYOUT: BUILDIFY_CONTENT_FOR_LAYOUT %}
       </main>
 
       <footer class="giftcard__footer">
