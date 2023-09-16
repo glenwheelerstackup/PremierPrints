@@ -5,13 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="{{ settings.color_button }}">
-
-  <meta name="facebook-domain-verification" content="natqtpf85ylrrnplrgpd3wgdi476y5" />
-  
   <link rel="canonical" href="{{ canonical_url }}">
-  <link rel="canonical" href="{{ canonical_url }}">
-  <link rel="preconnect" href="https://cdn.shopify.com">
-  <link rel="preconnect" href="https://fonts.shopifycdn.com">
+  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
   <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
   <link rel="dns-prefetch" href="https://ajax.googleapis.com">
   <link rel="dns-prefetch" href="https://maps.googleapis.com">
@@ -30,7 +26,7 @@
   {%- render 'social-meta-tags' -%}
 
   {%- render 'font-face' -%}
-  {{ 'theme.css' | asset_url | stylesheet_tag }}
+  {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
   {%- render 'css-variables' -%}
 
   <script>
@@ -39,44 +35,54 @@
     window.theme = window.theme || {};
     theme.routes = {
       home: "{{ routes.root_url }}",
-      cart: "{{ routes.cart_url }}",
-      cartAdd: "{{ routes.cart_add_url | append: '.js'}}",
-      cartChange: "{{ routes.cart_change_url }}"
+      cart: "{{ routes.cart_url | append: '.js' }}",
+      cartPage: "{{ routes.cart_url }}",
+      cartAdd: "{{ routes.cart_add_url | append: '.js' }}",
+      cartChange: "{{ routes.cart_change_url | append: '.js' }}",
+      search: "{{ routes.search_url }}",
+      predictiveSearch: "{{ routes.predictive_search_url }}"
     };
     theme.strings = {
       soldOut: {{ 'products.product.sold_out' | t | json }},
       unavailable: {{ 'products.product.unavailable' | t | json }},
-      stockLabel: {{ 'products.product.stock_label' | t: count: '[count]' | json }},
+      inStockLabel: {{ 'products.product.in_stock_label' | t | json }},
+      oneStockLabel: {{ 'products.product.stock_label.one' | t: count: '[count]' | json }},
+      otherStockLabel: {{ 'products.product.stock_label.other' | t: count: '[count]' | json }},
       willNotShipUntil: {{ 'products.product.will_not_ship_until' | t: date: '[date]' | json }},
       willBeInStockAfter: {{ 'products.product.will_be_in_stock_after' | t: date: '[date]' | json }},
       waitingForStock: {{ 'products.product.waiting_for_stock' | t | json }},
       savePrice: {{ 'products.general.save_html' | t: saved_amount: '[saved_amount]' | json }},
       cartEmpty: {{ 'cart.general.empty' | t | json }},
-      cartTermsConfirmation: {{ 'cart.general.terms_confirm' | t | json }}
+      cartTermsConfirmation: {{ 'cart.general.terms_confirm' | t | json }},
+      searchCollections: {{ 'general.search.collections' | t | json }},
+      searchPages: {{ 'general.search.pages' | t | json }},
+      searchArticles: {{ 'general.search.articles' | t | json }},
+      productFrom: {{ 'products.general.from_text_html' | t: price: '' | json }},
+      maxQuantity: {{ 'cart.general.max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }}
     };
     theme.settings = {
-      dynamicVariantsEnable: true,
-      dynamicVariantType: {{ settings.variant_type | json }},
       cartType: {{ settings.cart_type | json }},
+      isCustomerTemplate: {% if request.page_type contains 'customers/' %}true{% else %}false{% endif %},
       moneyFormat: {{ shop.money_format | json }},
       saveType: {{ settings.product_save_type | json }},
-      recentlyViewedEnabled: false,
+      productImageSize: {{ settings.product_grid_image_size | json }},
+      productImageCover: {{ settings.product_grid_image_fill }},
       predictiveSearch: {{ settings.predictive_search_enabled }},
       predictiveSearchType: {{ settings.search_type | json }},
-      inventoryThreshold: {{ settings.inventory_threshold }},
+      predictiveSearchVendor: {{ settings.predictive_search_show_vendor | json }},
+      predictiveSearchPrice: {{ settings.predictive_search_show_price | json }},
       quickView: {{ settings.quick_shop_enable }},
       themeName: 'Impulse',
-      themeVersion: "3.6.2"
+      themeVersion: "7.4.0"
     };
   </script>
 
   {{ content_for_header }}
 
-  <script src="{{ 'vendor-scripts-v7.js' | asset_url | split: '?' | first }}" defer="defer"></script>
+  <script src="{{ 'vendor-scripts-v11.js' | asset_url | split: '?' | first }}" defer="defer"></script>
 
   {%- if shop.enabled_currencies.size > 1 -%}
-    <link rel="preload" as="style" href="{{ 'currency-flags.css' | asset_url | split: '?' | first }}" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="stylesheet" href="{{ 'currency-flags.css' | asset_url | split: '?' | first }}">
+    <link rel="stylesheet" href="{{ 'country-flags.css' | asset_url | split: '?' | first }}">
   {%- endif -%}
 
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
@@ -84,9 +90,12 @@
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
-{% render 'printerlo' %}
 
-<!-- Google tag (gtag.js) -->
+  {% if request.design_mode %}
+    <script src="https://api.archetypethemes.co/design-mode.js" defer="defer"></script>
+  {% endif %}
+
+  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4P4WX0X9G"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -114,63 +123,53 @@ src="https://www.facebook.com/tr?id=614259553954809&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
-
         <!-- SlideRule Script Start -->
         {% include 'sliderule-data' %}
         <!-- SlideRule Script End -->
         </head>
 
-<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-center-text="{{settings.type_body_align_text}}" data-button_style="{{settings.button_style}}" data-type_header_capitalize="{{settings.type_header_capitalize}}" data-type_headers_align_text="{{settings.type_headers_align_text}}" data-type_product_capitalize="{{settings.type_product_capitalize}}" data-swatch_style="{{settings.swatch_style}}" {% if settings.disable_animations %}data-disable-animations="true"{% endif %}>
+<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-center-text="{{ settings.type_body_align_text }}" data-button_style="{{ settings.button_style }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-type_headers_align_text="{{ settings.type_headers_align_text }}" data-type_product_capitalize="{{ settings.type_product_capitalize }}" data-swatch_style="{{ settings.swatch_style }}" {% if settings.disable_animations %}data-disable-animations="true"{% endif %}>
   <script async data-environment="production" src="https://osm.klarnaservices.com/lib.js" data-client-id="99c4e570-bde9-5cde-af0a-d1dc96eceb1d"></script>
-
   <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
 
   <div id="PageContainer" class="page-container">
     <div class="transition-body">
 
-    {%- section 'header' -%}
+    {%- sections 'header-group' -%}
+    {%- sections 'popup-group' -%}
 
       <main class="main-content" id="MainContent">
-        {% capture BUILDIFY_CONTENT_FOR_LAYOUT %}{{ content_for_layout }}{% endcapture %}{% render 'buildify-variables', BUILDIFY_CONTENT_FOR_LAYOUT: BUILDIFY_CONTENT_FOR_LAYOUT %}
+        {{ content_for_layout }}
       </main>
 
-      {%- section 'footer-promotions' -%}
-      {%- section 'footer' -%}
+    {%- sections 'footer-group' -%}
 
     </div>
   </div>
 
-  {%- section 'newsletter-popup' -%}
+  {%- liquid
+    render 'video-modal'
+    render 'photoswipe-template'
+    render 'tool-tip'
+  -%}
 
-  {%- if settings.cart_type == 'drawer' -%}
-    {%- render 'ajax-cart-template' -%}
-  {%- endif -%}
-
-  <div class="hide">
-    <button data-id="prevArrowTemplate" class="slick-prev" aria-label="{{ 'general.pagination.previous' | t }}" type="button">
-      <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-left" viewBox="0 0 284.49 498.98"><path d="M249.49 0a35 35 0 0 1 24.75 59.75L84.49 249.49l189.75 189.74a35.002 35.002 0 1 1-49.5 49.5L10.25 274.24a35 35 0 0 1 0-49.5L224.74 10.25A34.89 34.89 0 0 1 249.49 0z"/></svg>
-      <span class="icon__fallback-text">{{ 'general.pagination.previous' | t }}</span>
-    </button>
-    <button data-id="nextArrowTemplate" class="slick-next" aria-label="{{ 'general.pagination.next' | t }}" type="button">
-      <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-chevron-right" viewBox="0 0 284.49 498.98"><path d="M35 498.98a35 35 0 0 1-24.75-59.75l189.74-189.74L10.25 59.75a35.002 35.002 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L59.75 488.73A34.89 34.89 0 0 1 35 498.98z"/></svg>
-      <span class="icon__fallback-text">{{ 'general.pagination.next' | t }}</span>
-    </button>
-  </div>
-
-  {%- if settings.predictive_search_enabled -%}
-    {%- render 'predictive-template' -%}
-  {%- endif -%}
-
-  {%- render 'video-modal' -%}
-  {%- render 'photoswipe-template' -%}
-  {%- if template contains 'product' -%}
-    {%- render 'recently-viewed-product-template' -%}
-  {%- endif -%}
-{% include 'textBoxScript' %}
-
+  {% comment %} Image markup used when building product grid item via JS {% endcomment %}
+  <template id="naturalImageMarkup">
+    <div class="image-wrap" style="height: 0;">
+      <image-element data-aos="image-fade-in" data-aos-offset="150">
+        <img class="grid-product__image image-element" width height src srcset loading="lazy" alt>
+      </image-element>
+    </div>
+  </template>
+  <template id="fixedRatioImageMarkup">
+    <div class="grid__image-ratio">
+      <image-element data-aos="image-fade-in" data-aos-offset="150">
+        <img class="image-element" width height src srcset loading="lazy" alt>
+      </image-element>
+    </div>
+  </template>
 </body>
 </html>
-
 <!-- Begin Shopify-Clearpay JavaScript Snippet (v1.1.5) -->
 {% if cart.currency.iso_code == shop.currency %}
   <script type="text/javascript">
@@ -224,4 +223,3 @@ src="https://www.facebook.com/tr?id=614259553954809&ev=PageView&noscript=1"
   <!-- Clearpay disabled: {{ cart.currency.iso_code }} != {{ shop.currency }} -->
   {% endif %}
   <!-- End Shopify-Clearpay JavaScript Snippet (v1.1.5) -->
-  
